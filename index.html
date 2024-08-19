@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANDY MISISCHIA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" href="images/IMG-1744.PNG">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <style>
+    .contact-info {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 5px;
+    }
+    .contact-info img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .contact-info h4 {
+      margin-bottom: 20px;
+    }
+    .contact-info p {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .contact-info p i {
+      margin-right: 10px;
+      color: #007bff;
+    }
+    .contact-form {
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form .btn {
+      background-color: #007bff;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .contact-form .btn i {
+      margin-left: 5px;
+    }
+    .map-container {
+      margin-top: 30px;
+      height: 300px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .form-floating .form-control{
+      color:rgb(5, 5, 5)
+    }
+    @media (max-width: 768px) {
+      .contact-info img {
+        margin-bottom: 20px;
+      }
+    }
+</style>
+
+</head>
+<body style="font-family: 'Crimson Text', serif;">
+
+
+    
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-auto d-lg-none" href="#">
+        <img src="images/IMG-1744.PNG" alt="Logo">
+      </a>
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRESS & MEDIA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OUR VISION</a>
+          </li>
+        </ul>
+        <a class="navbar-brand d-none d-lg-block" href="#">
+          <img src="images/IMG-1744.PNG" alt="Logo">
+        </a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">PROPERTIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME SEARCH</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            
+                <button class="navbar-toggler ms-auto d-lg-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+    
+  </nav>
+  <div class="container text-center fs-1 title fw-bolder">ANDY MISISCHIA</div>
+<div class="bg-image">
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="opacity: 0.8;">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <a class="nav-link" href="index.html">HOME</a>
+      <a class="nav-link" href="#">WHO WE ARE</a>
+      <a class="nav-link" href="#">OUR VISION</a>
+      <a class="nav-link" href="#">SEARCH ALL HOMES</a>
+      <a class="nav-link" href="#">YOUR HOME VALUE</a>
+      <a class="nav-link" href="#">AREA OF EXPERTISE</a>
+      <a class="nav-link" href="#">PRESS AND MEDIA</a>
+      <a class="nav-link" href="#" data-bs-dismiss="offcanvas" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT</a>
+      <!-- <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT</a> -->
+      <!-- <a class="nav-link" href="#">Link 9</a> -->
+      <!-- <a class="nav-link" href="#">Link 10</a> -->
+    </div>
+  </div>
+
+
+  <div class="text-center bgtext">
+    
+    <div class="hero-text">
+        <span style="font-weight: lighter;">Curated Real Estate Agent</span>
+        <p>Discover Your Dream Home</p>
+    </div>
+    <button class="cta-button">FIND A HOUSE</button>
+  </div>
+</div>
+<div class="container text-center my-5">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 mt-">
+      <p style="font-size: 18px;" class="text-justify">
+        Discover the epitome of luxury real estate with Andy Misischia. Celebrated for his refined approach and exceptional market expertise, Andy offers an elite, bespoke service tailored to the most discerning clients. Elevate your expectations and experience unparalleled sophistication.
+      </p>
+      
+        <center>
+          <button class="btn fw-bolder btn-secondary mt-2 mx-1 text-white">LOOKING TO SELL</button>
+          <button class="btn fw-bolder btn-secondary mt-2 mx-1 text-white">LOOKING TO BUY</button>
+        </center>
+      
+  </div>
+  <div class="col-md-3"></div>
+  </div>
+</div>
+<div class="text-white text-center" style="background-image: url('images/andystairs.jpg'); background-position: center; background-size: cover;">
+  <div class="bg-image2 py-5 px-3" style="background-color: rgba(0, 0, 0, 0.42);">
+    <div class="col-md-12">
+      <center><img class="mb-3" src="images/IMG-1744.PNG" style="max-height: 70px;"></center>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <p class="text-center slide-in-left" style="font-size: 17px;">
+            
+            We allocate a substantial budget to the marketing of each luxury property, ensuring bespoke promotion that aligns with its exclusivity. This investment encompasses refined advertising strategies, targeted outreach to discerning buyers, and premium platform placements, all designed to elevate the property’s profile and attract the most qualified clientele.
+
+          </p>
+          <a href="#"><button class="cta-button btn mt-4 animated-item">OUR MARKETING APPROACH</button></a>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+<div class="text-center">
+  <div class="container p-5 meet-andy">
+    <h2 class="text-center fw-bolder py-2">MEET <span style="font-family: cardo;">ANDY MISISCHIA  </span></h2> <hr class="p-3">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid mb-4" src="images/andy.JPG">
+      </div>
+      <div class="col-md-6">
+        <p class="slide-in-left">Andy Misischia is a premier figure in the realm of luxury real estate, distinguished by his refined expertise and unparalleled service. Renowned for his exceptional acumen and meticulous attention to detail, Andy offers a bespoke experience tailored to the most discerning clientele. His profound market insight and extensive network enable him to navigate complex transactions with unparalleled elegance and efficiency, solidifying his reputation as a leading authority in high-end property acquisitions and sales.</p>
+        <a class="nav-link" href="#" data-bs-dismiss="offcanvas" data-bs-toggle="modal" data-bs-target="#contactModal"><button class="btn btn-secondary mt-2 animated-item">CONTACT <span style="font-family: cardo;">ANDY</span></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div style="background-color:rgba(253, 247, 239, 0.423)" class="container py-5">
+    <h2 class="text-center py-1 mb-3 fw-bolder">AS SEEN IN</h2> <hr class="p-1"><br>
+    <div class="scrolling-images-container">
+      <div class="scrolling-images-wrapper">
+        
+        <img class="img-fluid" src="images/re1" alt="Image 1">
+        <img class="img-fluid" src="images/re2" alt="Image 2">
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black;">HOLLY WOOD PQ</span>
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black; letter-spacing: 7px;">BILLIE</span>
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black;">MSN ECT</span>
+        <img class="img-fluid" src="images/re3" alt="Image 3">
+        <img class="img-fluid" src="images/re4" alt="Image 4">
+        <img class="img-fluid" src="images/re6" alt="Image 5">
+        <img class="img-fluid" src="images/re7" alt="Image 6">
+        
+
+        <img class="img-fluid" src="images/re1" alt="Image 1">
+        <img class="img-fluid" src="images/re2" alt="Image 2">
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black;">HOLLY WOOD PQ</span>
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black; letter-spacing: 7px;">BILLIE</span>
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black;">MSN ECT</span>
+        <img class="img-fluid" src="images/re3" alt="Image 3">
+        <img class="img-fluid" src="images/re4" alt="Image 4">
+        <img class="img-fluid" src="images/re6" alt="Image 5">
+        <img class="img-fluid" src="images/re7" alt="Image 6">
+
+        <img class="img-fluid" src="images/re1" alt="Image 1">
+        <img class="img-fluid" src="images/re2" alt="Image 2">
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black;">HOLLY WOOD PQ</span>
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black; letter-spacing: 7px;">BILLIE</span>
+        <span class="fs-2 px-4" style="font-weight: bold; border-right: 5px solid black;">MSN ECT</span>
+        <img class="img-fluid" src="images/re3" alt="Image 3">
+        <img class="img-fluid" src="images/re4" alt="Image 4">
+        <img class="img-fluid" src="images/re6" alt="Image 5">
+        <img class="img-fluid" src="images/re7" alt="Image 6">
+      </div>
+    </div>
+</div>
+
+
+<div class="container" style="padding-top: 60px;">
+  <center>
+    <span class="my-2 fw-bolder fs-2">REAL ESTATE CURATED FOR YOU <img style="max-height: 40px;" src="images/house"></span><hr>
+    <!-- <h1 class="my-2">BEN- AZIL PILLAR GROUP</h1> -->
+  </center>
+  <!--<div class="container" style="background-image: url(images/build2); background-size:cover; background-position: center; position: relative; height: 350px; padding: 0px;">
+    <div style="background-color: rgba(0, 0, 0, 0.212); height: 350px;"></div>
+  </div>-->
+</div>
+<div class="container py-5 selection">
+  <div class="row d-none d-lg-flex animated-item">
+      <!-- Property 1 -->
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <div class="position-relative">
+                  <img src="images/bd1.jpg" class="card-img-top" alt="Property Image">
+                  <span class="position-absolute top-0 end-0 bg-dark text-white px-2 py-1">For Sale</span>
+              </div>
+              <div class="card-body">
+                  <h5 class="card-title">Park View Estate</h5>
+                  <p class="card-text">This stunning estate offers luxurious living with modern amenities and beautiful surroundings. A perfect blend of elegance and comfort.</p>
+                  <p class="card-text"><strong>Location:</strong> Quebec, Canada</p>
+                  <p class="card-text"><strong>Price:</strong> $1,000,000</p>
+                  <a href="#" class="btn btn-dark">View Property</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+            <div class="position-relative">
+                <img src="images/bd2.jpg" class="card-img-top" alt="Property Image">
+                <span class="position-absolute top-0 end-0 bg-dark text-white px-2 py-1">For Rent</span>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Austine Estate</h5>
+                <p class="card-text">This stunning estate offers luxurious living with modern amenities and beautiful surroundings. A perfect blend of elegance and comfort.</p>
+                <p class="card-text"><strong>Location:</strong> Quebec, Canada</p>
+                <p class="card-text"><strong>Price:</strong> $500,000</p>
+                <a href="#" class="btn btn-dark">View Property</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4">
+          <div class="position-relative">
+              <img src="images/bd6.jpg" class="card-img-top" alt="Property Image">
+              <span class="position-absolute top-0 end-0 bg-dark text-white px-2 py-1">For Sale</span>
+          </div>
+          <div class="card-body">
+              <h5 class="card-title">Suncity Estate</h5>
+              <p class="card-text">This stunning estate offers luxurious living with modern amenities and beautiful surroundings. A perfect blend of elegance and comfort.</p>
+              <p class="card-text"><strong>Location:</strong> Quebec, Canada</p>
+              <p class="card-text"><strong>Price:</strong> $500,000</p>
+              <a href="#" class="btn btn-dark">View Property</a>
+          </div>
+      </div>
+  </div>
+      <!-- Repeat for other properties -->
+  </div>
+
+  <!-- Carousel for smaller devices -->
+  <div id="propertyCarousel" class="carousel slide d-lg-none" data-bs-ride="carousel">
+      <div class="carousel-inner px-3">
+          <!-- Property 1 -->
+          <div class="carousel-item active">
+              <div class="card animated-item">
+                  <div class="position-relative">
+                      <img src="images/bd6.jpg" class="card-img-top" alt="Property Image">
+                      <span class="position-absolute top-0 end-0 bg-dark text-white px-2 py-1">For Sale</span>
+                  </div>
+                  <div class="card-body">
+                      <h5 class="card-title">Lasma City</h5>
+                      <p class="card-text">This stunning estate offers luxurious living with modern amenities and beautiful surroundings. A perfect blend of elegance and comfort.</p>
+                      <p class="card-text"><strong>Location:</strong> Quebec, Canada</p>
+                      <p class="card-text"><strong>Price:</strong> $500,000</p>
+                      <a href="#" class="btn btn-dark">View Property</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card animated-item">
+                <div class="position-relative">
+                    <img src="images/bd10.jpg" class="card-img-top" alt="Property Image">
+                    <span class="position-absolute top-0 end-0 bg-dark text-white px-2 py-1">For Hire</span>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Good Day Estate</h5>
+                    <p class="card-text">This stunning estate offers luxurious living with modern amenities and beautiful surroundings. A perfect blend of elegance and comfort.</p>
+                    <p class="card-text"><strong>Location:</strong> City, Country</p>
+                    <p class="card-text"><strong>Price:</strong> $500,000</p>
+                    <a href="#" class="btn btn-dark">View Property</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="card animated-item">
+              <div class="position-relative">
+                  <img src="images/bd8.jpg" class="card-img-top" alt="Property Image">
+                  <span class="position-absolute top-0 end-0 bg-dark text-white px-2 py-1">For Rent</span>
+              </div>
+              <div class="card-body">
+                  <h5 class="card-title">Best Park</h5>
+                  <p class="card-text">This stunning estate offers luxurious living with modern amenities and beautiful surroundings. A perfect blend of elegance and comfort.</p>
+                  <p class="card-text"><strong>Location:</strong> City, Country</p>
+                  <p class="card-text"><strong>Price:</strong> $500,000</p>
+                  <a href="#" class="btn btn-dark">View Property</a>
+              </div>
+          </div>
+      </div>
+          <!-- Repeat for other properties -->
+      </div>
+      <!-- Carousel controls -->
+      <button class="carousel-control-prev d-none" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next d-none" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+</div>
+
+
+<section class="team-section py-5">
+  <div class="container">
+      <h2 class="text-center mb-3 fw-bolder fs-2">MEET THE TEAM</h2><hr>
+      <div class="row">
+          <div class="col-lg-4 col-md-6 mb-5 p-1 mt-3 animated-item">
+              <div class="team-member text-center position-relative">
+                  <img src="images/owner1.jpg" class="img-fluid rounded-circle" alt="Team Member 1">
+                  <div class="ontop d-flex align-items-center justify-content-center">
+                      <div class="social-icons">
+                          <a href="https://www.facebook.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-facebook"></i></a>
+                          <a href="https://www.twitter.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-twitter"></i></a>
+                          <a href="https://www.linkedin.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-instagram"></i></a>
+                      </div>
+                  </div>
+                  <h5 class="mt-2">Andy Misichia</h5>
+                  <p>CEO & Founder</p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 p-1 mt-3 animated-item">
+            <div class="team-member text-center position-relative">
+                <img src="images/joey" class="img-fluid rounded-circle" alt="Team Member 1">
+                <div class="ontop d-flex align-items-center justify-content-center">
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-instagram"></i></a>
+                </div>
+                </div>
+                <h5 class="mt-2">Joey Ben-Zvi</h5>
+                <p>Agent</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 p-1 mt-3 animated-item">
+          <div class="team-member text-center position-relative">
+              <img src="images/chloe" class="img-fluid rounded-circle" alt="Team Member 1">
+              <div class="ontop d-flex align-items-center justify-content-center">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="btn btn-primary btn-sm mx-1"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <h5 class="mt-2">Chloe Bryan</h5>
+              <p>Estate Planner</p>
+          </div>
+      </div>
+          <!-- Repeat the above block for more team members -->
+      </div>
+  </div>
+</section>
+
+<div style="background-image: url(images/bcnie7qmoaeaxeugolsu.webp); height: 100%; background-attachment:fixed; ">
+  <div style="background-color: rgba(0, 0, 0, 0.719); height: 100%;">
+
+
+
+
+
+<!-- <div style="background-color: rgb(255, 243, 227); padding: 70px 0px"> -->
+  <div style="background-image:url(images/bg2.jpg); padding: 70px 0px">
+  <div class="container text-center ranking py-4">
+    <div class="row">
+      
+        <div class="col-md-3">
+          <img class="img-fluid mb-3" src="images/re6">
+          <p class="fw-bolder text-secondary">RANKED VARIETIES 2023 SHOWBIZ REAL ESTATE ELITE</p>
+        </div>
+        <div class="col-md-3">
+          <img class="img-fluid mb-3" src="images/re3">
+          <p class="fw-bolder text-secondary">CAST MEMBER OF BUYING BEVERLY HILLS NETFLIX</p>
+        </div>
+        <div class="col-md-3">
+          <img class="img-fluid mb-3" src="images/re8">
+          <p class="fw-bolder text-secondary">RECOGNIZES BZP GROUP AMONG THE TOP 1.5% OF AGENTS AND SMALL TEAMS ACROSS THE COUNTRY BASED ON VOLUME</p>
+        </div> 
+        <div class="col-md-3">
+          <img class="img-fluid mb-3" src="images/re2">
+          <p class="fw-bolder text-secondary">RECOGNIZES ANDY AS TOP 1% BROKER IN QUEBEC</p>
+        </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 property-spotlight">
+        <h2 class="text-center">PROPERTY SPOTLIGHT <hr></h2><br>
+        <p>8420 Hollywood Blvd., Los Angeles, CA</p>
+        <p>​​​​​​​Soaring over the Sunset Strip, EIGHT420 is a minimalist, modern masterpiece offering 270-degree jetliner views from downtown to the ocean.</p>
+      </div>
+      <div class="col-md-7">
+        <video style="width: 100% ; height: auto;" autoplay muted loop>
+          <source src="videos/bgvideo2.mp4">
+        </video>
+        <center><button class="btn btn-dark mt-2">Browse more Videos <i class="bi bi-video"></i></button></center>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4">What Our Clients Say</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                  <div class="bg-light d-flex justify-content-center caroo">
+                    <img src="images/joey" alt="Customer 1">
+                    <div class="ms-3">
+                        <p>"Amazing service and very professional staff. Found my dream home thanks to them!"</p>
+                        <p><strong>John Doe</strong></p>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="bg-light d-flex justify-content-center caroo">
+                  <img src="images/fortune.jpg" alt="Customer 1">
+                  <div class="ms-3">
+                      <p>"They made the buying process so easy and stress-free. Great experience!"</p>
+                      <p><strong>Mark Fortune</strong></p>
+                  </div>
+                </div> 
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="bg-light d-flex justify-content-center caroo">
+                <img src="images/chloe" alt="Customer 1">
+                <div class="ms-3">
+                    <p>"Great service and support! Highly recommend this Real Estate Agent. I'm grateful."</p>
+                    <p><strong>Maryn Rich</strong></p>
+                </div>
+              </div> 
+            </div>
+        </div>
+            
+            
+            <!-- Add more carousel items here -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <!-- <span class="visually-hidden">Previous</span> -->
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <!-- <span class="visually-hidden">Next</span> -->
+        </button>
+    </div>
+  </div>
+  
+</div>
+
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="contact-info text-center">
+                <img src="images/andy.JPG" alt="Real Estate Agent">
+                <h4>Contact Information</h4>
+                <p><i class="bi bi-telephone-fill"></i> +5149517228</p>
+                <p><i class="bi bi-envelope-fill"></i> andy@groupemisischia.com</p>
+                <p><i class="bi bi-geo-alt-fill"></i> 1225 Ave Greene, Westmount, Quebec H3Z 2A4 </p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="contact-form">
+                <h4 class="mb-4">Get in Touch</h4>
+                <form>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="fullname" placeholder="Your Full Name">
+                    <label for="fullname">Full Name</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email Address">
+                    <label for="email">Email Address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="phone" placeholder="Your Phone Number">
+                    <label for="phone">Phone Number</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" placeholder="Type your message here..." style="height: 150px;"></textarea>
+                    <label for="message">Your Message</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">
+                    Send <i class="bi bi-send"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="map-container mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.1656236313047!2d-73.59082272432438!3d45.48660943194413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a732cf1c389%3A0xae1ebf1bcd168ac3!2s1225%20Ave%20Greene%2C%20Westmount%2C%20QC%20J4Y%200B5%2C%20Canada!5e0!3m2!1sen!2sng!4v1723461830661!5m2!1sen!2sng" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container" style="padding: 80px 20px;">
+  
+  <center><h2 class="fw-bolder text-white fs-1 mb-4">LET'S CONNECT</h2></center>
+  <div class='row'>
+    
+      
+        <div class="form-group col-md-4">
+          <input type="text" class="form-control w-100" id="firstname" name="firstname" placeholder="" required>
+          <label for="firstname" class="form-label">Fullname <span class="text-danger">*</span></label>
+        </div>
+        <div class="form-group col-md-4"> 
+          <input type="email" class="form-control w-100" id="email" placeholder="" name="email" required>
+          <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+        </div>
+        <div class="form-group col-md-4">
+            <input type="tel" class="form-control w-100" id="phone" name="phone" placeholder="" required>
+            <label for="phone" class="form-label">Phone no <span class="text-danger">*</span></label>
+        </div>
+        <div class="form-group col-md-12">
+          <textarea type="text" class="form-control w-100" id="message" name="message" placeholder="" required></textarea>
+          <label for="phone" class="form-label">Message <span class="text-danger">*</span></label>
+        </div>
+                    
+        
+        <div class="form-group col-md-12"> 
+          <!-- <input type="checkbox"> <span class="text-white">By providing Brandon Piller your contact information, you acknowledge and agree to our <a href="#" class="text-white">Privacy Policy</a> and consent to receiving marketing communications, including through automated calls, texts, and emails, some of which may use artificial or prerecorded voices. This consent isn’t necessary for purchasing any products or services and you may opt out at any time. To opt out from texts, you can reply, ‘stop’ at any time. To opt out from emails, you can click on the unsubscribe link in the emails. Message and data rates may apply.</span> -->
+        </div>
+        <button class="cta-button"><i class="bi bi-send"></i> Submit</button>
+      
+      
+    
+      </div>
+</div>
+
+
+<!-- <footer class="px-5 py-5" style="background-color: antiquewhite;"> -->
+  <footer class="px-5 py-5" style="background-image:url(images/bg2.jpg);">
+  <div class="container-fluid">
+    <h1 style="font-family: 'cardio';">ANDY MISISCHIA</h1>
+    <p class="text-justify">Andy Misischia is a premier figure in the realm of luxury real estate, distinguished by his refined expertise and unparalleled service. Renowned for his exceptional acumen and meticulous attention to detail, Andy offers a bespoke experience tailored to the most discerning clientele. His profound market insight and extensive network enable him to navigate complex transactions with unparalleled elegance and efficiency, solidifying his reputation as a leading authority in high-end property acquisitions and sales.</p>
+
+    <div class="row">
+      <div class="col-md-3">
+        <img src="images/agency" class="img-fluid">
+      </div>
+      <div class="col-md-3">
+        <h3>Agent</h3>
+        <p>ANDY | +5149517228
+        </p>
+        
+        <h5>EMAIL</h5>
+          <p>andy@groupemisichia.com</p>
+
+      </div>
+      <div class="col-md-3">
+        <h3>ADDRESS</h3>
+        <p>1225 Ave Greene, Westmount, Quebec H3Z 2A4</p>
+          
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h5 class="mt-3 fw-bolder">Follow Us</h5>
+        <div class="d-flex animated-item">
+            <a href="#" class="mx-2 fs-5 social-links" style="border: 2px solid black; border-radius: 50%; padding: 10px 15px"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="mx-2 fs-5 social-links" style="border: 2px solid black; border-radius: 50%; padding: 10px 15px "><i class="bi bi-twitter"></i></a>
+            <a href="#" class="mx-2 fs-5 social-links" style="border: 2px solid black; border-radius: 50%; padding: 10px 15px"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="mx-2 fs-5 social-links" style="border: 2px solid black; border-radius:50%; padding: 10px 15px "><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h1></h1><br><br>
+        <div class="d-flex">
+          
+          <a href="#" class="mx-2"><img class="img-fluid" src="images/realtor" style="max-height: 50px;"></a>
+          <a href="#" class="mx-2"><img class="img-fluid" src="images/house" style="max-height: 50px;"></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <p>Website Designed By <a href="#" class="text-secondary">RichexTech Concepts</a></p>
+      </div>
+      <div class="col-md-6">
+        <p>Copyright 2024 | <a href="#" class="text-decoration-none text-secondary">Private Policy</a></p>
+      </div>
+    </div>
+  </div>
+  
+</footer>
+
+
+
+
+
+
+
+</div>
+</div>
+
+<!--<style>
+  .fixed-buttons {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  .fixed-buttons .btn {
+    width: 50%;
+    border-radius: 0;
+  }
+  </style>
+<div class="fixed-buttons">
+  <a href="tel:+1234567890" class="btn btn-success btn-lg text-white">Call</a>
+  <a href="sms:+1234567890" class="btn btn-primary btn-lg text-white">Text</a>
+</div>-->
+<style>
+  .floating-buttons {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .floating-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #007bffb9;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+  .floating-buttons a:hover {
+    background-color: #0056b3;
+  }
+  .floating-buttons a i {
+    font-size: 24px;
+  }
+</style>
+<div class="floating-buttons">
+  <a href="tel:+5149517228" class="btn btn-primary">
+    <i class="bi bi-telephone-fill"></i>
+  </a>
+  <a href="sms:+5149517228" class="btn btn-primary">
+    <i class="bi bi-chat-dots-fill"></i>
+  </a>
+</div>
+
+
+      
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener('scroll', function () {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+</script>
+
+<script>
+  // JavaScript to handle the intersection observer and slide items up
+  document.addEventListener('DOMContentLoaded', function () {
+      const items = document.querySelectorAll('.animated-item');
+
+      const observerOptions = {
+          root: null, // Use the viewport as the root
+          rootMargin: '0px',
+          threshold: 0.1 // Trigger when 10% of the item is visible
+      };
+
+      const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                  entry.target.classList.add('visible');
+                  observer.unobserve(entry.target); // Stop observing once visible
+              }
+          });
+      }, observerOptions);
+
+      items.forEach(item => {
+          observer.observe(item);
+      });
+  });
+</script>
+<script>
+  function isInViewport(element){
+      var rect=element.getBoundingClientRect();
+      var viewHeight= Math.max(document.documentElement.clientHeight, window.innerHeight);
+      return !(rect.bottom<0||rect.top-viewHeight>=0);
+  }
+  function handleScroll(){
+      var slideElements = document.querySelectorAll('.slide-in-left');
+      slideElements.forEach(function(element){
+          if(isInViewport(element)){
+              element.classList.add('seen');
+          }
+      });
+  }
+  window.addEventListener('scroll', handleScroll);
+</script>
+<script>document.querySelectorAll('[data-bs-toggle="modal"]').forEach(trigger => {
+    trigger.addEventListener('click', function () {
+        const offcanvas = bootstrap.Offcanvas.getInstance(document.getElementById('offcanvasNavbar'));
+        if (offcanvas) {
+            offcanvas.hide(); // Close the offcanvas before opening the modal
+        }
+    });
+});</script>
+
+
+
+</body>
+</html>
+
+
